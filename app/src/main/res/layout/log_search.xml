@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/logSearch">
+
+    <TextView
+        android:text="查询到的日志记录："
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/titleView"
+        android:textSize="24sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewLog" />
+</LinearLayout>
